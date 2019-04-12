@@ -1,0 +1,20 @@
+<MainNode>
+	<SequenceNode>
+		<AssignmentNode> =
+			<VariableNode> k
+			<IntNode> 7
+		<WhileNode> while
+			<BracketNode> ()
+				<GreaterNode> >
+					<BracketNode> ()
+						<PlusNode> +
+							<IntNode> 3
+							<IntNode> 5
+					<BracketNode> ()
+						<PlusNode> +
+							<VariableNode> k
+							<IntNode> 7
+			<BlockNode> {}
+				<AssignmentNode> =
+					<VariableNode> k
+					<IntNode> 4
